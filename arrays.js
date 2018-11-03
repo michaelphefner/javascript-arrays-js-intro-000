@@ -26,3 +26,7 @@ function removeElementFromEndOfArray(array){
   newArray = newArray.slice(0,array.length -1);
   return newArray;
 }
+function destructivelyAddElementToBeginningOfArray(array){
+  array.shift();
+  return array;
+}
