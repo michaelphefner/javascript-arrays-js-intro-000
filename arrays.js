@@ -19,3 +19,7 @@ function accessElementInArray(array, index){
 function destructivelyRemoveElementFromEndOfArray(array){
   return array.splice(array.length - 1);
 }
+function removeElementFromEndOfArray(array){
+  let newArray = array.splice(array.length -1);
+  return newArray;
+}
