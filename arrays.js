@@ -22,6 +22,6 @@ function destructivelyRemoveElementFromEndOfArray(array){
 }
 function removeElementFromEndOfArray(array){
   let newArray = array;
-  newArray = newArray.unshift(array.length -1);
+  newArray = newArray.slice(0,array.length -1);
   return newArray;
 }
