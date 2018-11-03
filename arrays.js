@@ -30,3 +30,8 @@ function destructivelyAddElementToBeginningOfArray(array){
   array.shift();
   return array;
 }
+function removeElementFromBeginningOfArray(array){
+  let newArray = array;
+  newArray.shift();
+  return newArray;
+}
