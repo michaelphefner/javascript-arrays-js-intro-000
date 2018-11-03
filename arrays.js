@@ -17,8 +17,8 @@ function accessElementInArray(array, index){
   return array[index];
 }
 function destructivelyRemoveElementFromEndOfArray(array){
-  array = array.slice(array.length - 1);
-  return array;
+  // array = array.slice(array.length - 1);
+  return array.pop();
 }
 function removeElementFromEndOfArray(array){
   let newArray = array;
